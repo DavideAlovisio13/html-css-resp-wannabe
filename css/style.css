@@ -147,19 +147,12 @@ img {
             max-width: 480px;
         }
         .lessons .col {
-            width: 100%;
-            flex-wrap: wrapS;
-        }
-        .lessons .col img {
-            width: 200px;
-            margin-bottom: 1rem;
+            width: 200%;
+            flex-wrap: wrap;
         }
         .steps .col {
             width: 100%;
-        }
-        .steps .col img {
-            width: 200px;
-            margin-bottom: 1rem;
+
         }
         .why-us .col-left {
             width: 100%;
@@ -167,6 +160,11 @@ img {
         
         .why-us .col-right {
             width: 100%;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
         }
         
     }
