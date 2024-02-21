@@ -146,10 +146,28 @@ img {
         .container{
             max-width: 480px;
         }
-        .col, .col-left, .col-right {
-            display: flex;
+        .lessons .col {
             width: 100%;
-            flex-wrap: wrap;
+            flex-wrap: wrapS;
+        }
+        .lessons .col img {
+            width: 200px;
+            margin-bottom: 1rem;
+        }
+        .steps .col {
+            width: 100%;
+        }
+        .steps .col img {
+            width: 200px;
+            margin-bottom: 1rem;
+        }
+        .why-us .col-left {
+            width: 100%;
         }
         
+        .why-us .col-right {
+            width: 100%;
+        }
+        
+    }
     
