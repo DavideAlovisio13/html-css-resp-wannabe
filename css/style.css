@@ -131,41 +131,31 @@ img {
     /* media query */
 
     @media all and (max-width: 1140px){
+        
         .container {
             width: 100%;
         }
     }
 
+    /* è comprensiva di scroll-bar */
+    /* max-widht non va bene perchè devo sovrascrivere l'altro valore */
     @media all and (max-width: 768px){
+        
         .container {
             width: 100%;
         }
     }
 
-    @media all and (max-width: 480px){
-        .container{
-            max-width: 480px;
-        }
-        .lessons .col {
-            width: 200%;
-            flex-wrap: wrap;
-        }
-        .steps .col {
-            width: 100%;
-
-        }
-        .why-us .col-left {
-            width: 100%;
-        }
+    @media all and (max-width: 480px){ 
         
-        .why-us .col-right {
-            width: 100%;
-        }
-
         .row{
-            display: flex;
             flex-wrap: wrap;
         }
-        
+
+        .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
     }
     
